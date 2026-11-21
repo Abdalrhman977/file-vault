@@ -1,0 +1,9 @@
+# Never commit encrypted or in-progress data, only code.
+*.enc
+*.tmp
+__pycache__/
+# Anything dropped next to the scripts to be encrypted/decrypted
+Encrypt/*
+!Encrypt/encrypt.py
+Decrypt/*
+!Decrypt/decrypt.py
